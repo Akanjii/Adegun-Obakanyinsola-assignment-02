@@ -28,6 +28,13 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
+  let sum = 0;
+  for (let index = 0;  index < arrayOfNumbers.length; index++) {
+    sum += arrayOfNumbers[index];
+    console.log(sum)
+  }
+    return sum;
+}
     return arrayOfNumbers.length;
 }
 // assignment.countEvenNumbers = countEvenNumbers;
